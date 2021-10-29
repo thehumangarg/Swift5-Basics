@@ -1,0 +1,38 @@
+import UIKit
+
+
+var age = 15 //Integer
+var price = 10.99 // Double
+
+var personAge: Int = 15
+var thePrice: Double = 10.99
+
+
+var length = 10
+var width = 5
+
+let area = length * width // Multiplication
+
+var health = 100
+var poisonDamage = 15
+health = health - poisonDamage // Subtraction
+
+health -= poisonDamage // Compound assignment operator
+
+var potion = 20
+health += potion // Addition (Compound assignment operator)
+health = health + potion // Addition
+
+
+var students = 30
+var treats = 500
+let treatsPerStudent = treats / students // Division
+
+let remainder = treats % students // Modulo (remainder) operator
+
+
+var tLength: Double = 10
+var tWidth: Double = 5
+
+//a^2 + b^2 = c^2
+let areaTriangle = sqrt(pow(tLength, 2) + pow(tWidth, 2))
