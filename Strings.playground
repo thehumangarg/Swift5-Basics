@@ -1,0 +1,21 @@
+import UIKit
+
+
+var fullName = "John Smith" // Type inference
+
+var message: String = "Hey there!" // Explicit type declaration
+print(message)
+
+let firstName = "Jenna"
+let lastName = "Smith"
+
+fullName = firstName + " " + lastName
+print(fullName)
+
+var age = 20
+
+var newMessage = "Hi, my name is \(firstName) and I am \(age) years old" // String interpolation
+print(newMessage)
+
+newMessage.append(". And I like clowns.")
+print(newMessage)
